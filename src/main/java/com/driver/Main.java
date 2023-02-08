@@ -4,13 +4,13 @@ public class Main {
     public class Product
     {
         public int product(int x, int y) {
-            return x;
+            return 0;
         }
         public int product(int x, int y, int z) {
-            return x;
+            return 0;
         }
         public double product(double x, double y) {
-            return x;
+            return 0;
         }
     }
 
