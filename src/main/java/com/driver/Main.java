@@ -4,13 +4,13 @@ public class Main {
     public class Product
     {
         public int product(int x, int y) {
-            return 0;
+            return x+y;
         }
         public int product(int x, int y, int z) {
-            return 0;
+            return x-y+z;
         }
         public double product(double x, double y) {
-            return 0;
+            return x*y;
         }
     }
 
@@ -18,6 +18,6 @@ public class Main {
         Product p = new Product();
         p.product(10,20);
         p.product(10,20,30);
-        p.product(13,14);
+        p.product(13.0,14.0);
     }
 }
